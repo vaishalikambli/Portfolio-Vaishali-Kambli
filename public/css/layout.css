@@ -30,7 +30,7 @@ body {
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-.particlesArea {
+#tsparticles {
   position: absolute;
   top:0;
   height: 100%;
