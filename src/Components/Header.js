@@ -21,7 +21,8 @@ class Header extends Component {
 
     return (
       <React.Fragment>
-        <Particles
+        <Particles 
+        className="particlesArea" 
           params={{
             particles: {
               number: {
