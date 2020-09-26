@@ -21,7 +21,80 @@ class Header extends Component {
 
     return (
       <React.Fragment>
-        <Particles />
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 8,
+                density: {
+                  enable: true,
+                  value_area: 800,
+                },
+              },
+              line_linked: {
+                enable: false,
+              },
+              move: {
+                speed: 1,
+                out_mode: "out",
+              },
+              shape: {
+                type: ["image", "circle"],
+                image: [
+                  {
+                    src: "../../images/react.svg",
+                    height: 20,
+                    width: 23,
+                  },
+                  {
+                    src: "../../images/html5.svg",
+                    height: 20,
+                    width: 23,
+                  },
+                  {
+                    src: "../../images/css-3.svg",
+                    height: 20,
+                    width: 23,
+                  },
+                  {
+                    src: "../../images/bootstrap-4.svg",
+                    height: 20,
+                    width: 23,
+                  },
+                  {
+                    src: "../../images/javascript.svg",
+                    height: 20,
+                    width: 23,
+                  },
+                  {
+                    src: "../../images/Sass.svg",
+                    height: 20,
+                    width: 23,
+                  },
+                  {
+                    src: "../../images/visual-studio-code.svg",
+                    height: 20,
+                    width: 23,
+                  }                  
+                ],
+              },
+              color: {
+                value: "#CCC",
+              },
+              size: {
+                value: 30,
+                random: false,
+                anim: {
+                  enable: true,
+                  speed: 4,
+                  size_min: 10,
+                  sync: false,
+                },
+              },
+            },
+            retina_detect: false,
+          }}
+        />
         <header id="home">
           <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
